@@ -1,4 +1,4 @@
-trait_machine_biomass = {
+trait_tec_machine_biomass = {
 	sorting_priority = 10
 	icon = gfx/interface/icons/traits/machine_traits/trait_tec_machine_biomass.dds
 	cost = 0

@@ -1,0 +1,13 @@
+l_english:
+
+	trait_tec_machine_biomass:0 "Biomass Converters"
+	trait_tec_machine_biomass_desc:0 "§LIntegrated as a energy reprocessor, these units have a refuel system able to consume via nanorrobotics any organic matter around in case of energy shortage or just nominal recharge.§!\n"
+	TRAIT_TEC_BIOMASS_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.5§!"
+
+	trait_tec_machine_biobrain:0 "Organic Processor"
+	trait_tec_machine_biobrain_desc:0 "§LThese artificial units somehow have an organic brain as their main processor. The cost of nurturing and maintaining organic tissue is a great inconvenience but it provides great benefits in both the long and short term.§!\n"
+	TRAIT_TEC_BIOBRAIN_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!"
+
+	trait_tec_machine_clockwork:0 "Clockwork Body"
+	trait_tec_machine_clockwork_desc:0 "§LThese machines are composed internally of a myriad of kinetic miniaturized clockwork systems, feeding a complex structure that amplifies the workflow and creates a network of energy-saving mechanics for single interfaces; even with the complexity of these systems, their movements seems laggy or extremely paced.§!\n"
+	TRAIT_TEC_CLOCKWORK_EFFECT:0 "$mod_planet_pops_robotics_minerals_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.75§!"
