@@ -1,14 +1,14 @@
-trait_tec_machine_biomass = {
+trait_tec_machine_bioroid = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_biomass.dds
+	icon = gfx/interface/icons/traits/trait_tec_machine_bioroid.dds
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_clockwork" "trait_tec_machine_biobrain" }
+	opposites = { "trait_tec_machine_electromech" "trait_tec_machine_wetware" }
 	# Modifiers
-	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOMASS_EFFECT
+	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOROID_EFFECT
 	modifier = {
 		pop_category_normal_resources_food_upkeep_add = 0.5
 		tec_pop_upkeep_base_add = -0.5
@@ -39,17 +39,17 @@ trait_tec_machine_biomass = {
 	}
 }
 
-trait_tec_machine_biobrain = {
+trait_tec_machine_wetware = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_biobrain.dds
+	icon = gfx/interface/icons/traits/trait_tec_machine_wetware.dds
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_biomass" "trait_tec_machine_clockwork" }
+	opposites = { "trait_tec_machine_bioroid" "trait_tec_machine_electromech" }
 	# Modifiers
-	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOBRAIN_EFFECT
+	# custom_tooltip_with_modifiers = TRAIT_TEC_WETWARE_EFFECT
 	modifier = {
 		pop_category_normal_resources_food_upkeep_add = 0.5
 		planet_jobs_robotic_produces_mult = 0.05
@@ -93,17 +93,17 @@ trait_tec_machine_biobrain = {
 	}
 }
 
-trait_tec_machine_clockwork = {
+trait_tec_machine_electromech = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_clockwork.dds
+	icon = gfx/interface/icons/traits/trait_tec_machine_electromech.dds
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_biomass" "trait_tec_machine_biobrain" }
+	opposites = { "trait_tec_machine_bioroid" "trait_tec_machine_wetware" }
 	# Modifiers
-	# custom_tooltip = TRAIT_TEC_CLOCKWORK_EFFECT
+	# custom_tooltip = TRAIT_TEC_ELECTROMECH_EFFECT
 	modifier = {
 		pop_category_normal_resources_minerals_upkeep_add = 0.5
 		tec_pop_upkeep_base_add = -0.75

@@ -7,14 +7,14 @@ l_english:
  mod_planet_pops_robotics_food_upkeep_add: "$mod_planet_pops_robotics_food_upkeep_mult$"
  mod_planet_pops_robotics_energy_upkeep_add: "$mod_planet_pops_robotics_energy_upkeep_mult$"
 
- trait_tec_machine_biomass:0 "Bioroid"
- trait_tec_machine_biomass_desc:0 "§LThese machines are constructed using partially organic components, and consume less energy, but food is required to nourish the organic tissue.§!\n"
- TRAIT_TEC_BIOMASS_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.5§!"
+ trait_tec_machine_bioroid:0 "Bioroid"
+ trait_tec_machine_bioroid_desc:0 "§LThese machines are constructed using partially organic components, and consume less energy, but food is required to nourish the organic tissue.§!\n"
+ TRAIT_TEC_BIOROID_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.5§!"
 
- trait_tec_machine_biobrain:0 "Wetware"
- trait_tec_machine_biobrain_desc:0 "§LThese machines have organic brains instead of artificial processors, but food is required to nourish the organic central nervous system.§!\n"
- TRAIT_TEC_BIOBRAIN_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!"
+ trait_tec_machine_wetware:0 "Wetware"
+ trait_tec_machine_wetware_desc:0 "§LThese machines have organic brains instead of artificial processors, but food is required to nourish the organic central nervous system.§!\n"
+ TRAIT_TEC_WETWARE_EFFECT:0 "$mod_planet_pops_robotics_food_upkeep_add$: §R+0.5§!"
 
- trait_tec_machine_clockwork:0 "Electro-Mechanical"
- trait_tec_machine_clockwork_desc:0 "§LThese machines are constructed using low-tech electro-mechanical components, and consume less energy, but minerals are required maintain their moving parts.§!\n"
- TRAIT_TEC_CLOCKWORK_EFFECT:0 "$mod_planet_pops_robotics_minerals_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.75§!"
+ trait_tec_machine_electromech:0 "Electro-Mechanical"
+ trait_tec_machine_electromech_desc:0 "§LThese machines are constructed using low-tech electro-mechanical components, and consume less energy, but minerals are required maintain their moving parts.§!\n"
+ TRAIT_TEC_ELECTROMECH_EFFECT:0 "$mod_planet_pops_robotics_minerals_upkeep_add$: §R+0.5§!\n$mod_planet_pops_robotics_energy_upkeep_add$: §G-0.75§!"
