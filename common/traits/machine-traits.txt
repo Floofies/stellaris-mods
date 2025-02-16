@@ -1,0 +1,134 @@
+trait_machine_biomass = {
+	sorting_priority = 10
+	icon = gfx/interface/icons/traits/machine_traits/trait_tec_machine_biomass.dds
+	cost = 0
+	initial = yes
+	randomized = yes
+	# Archetypes
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = { "trait_tec_machine_clockwork" "trait_tec_machine_biobrain" }
+	# Modifiers
+	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOMASS_EFFECT
+	modifier = {
+		pop_category_normal_resources_food_upkeep_add = 0.5
+		tec_pop_upkeep_base_add = -0.5
+		planet_pops_robotics_upkeep_mult = -0.10
+	}
+	# Modification
+	species_potential_add = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	species_possible_remove = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	species_possible_merge_remove = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	# External
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_tec_machine_biobrain = {
+	sorting_priority = 10
+	icon = gfx/interface/icons/traits/machine_traits/trait_tec_machine_biobrain.dds
+	cost = 0
+	initial = yes
+	randomized = yes
+	# Archetypes
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = { "trait_tec_machine_biomass" "trait_tec_machine_clockwork" }
+	# Modifiers
+	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOBRAIN_EFFECT
+	modifier = {
+		pop_category_normal_resources_food_upkeep_add = 0.5
+		planet_jobs_robotic_produces_mult = 0.05
+	}
+	# Modification
+	species_potential_add = {
+		exists = from
+		from = {
+			OR = {
+				is_machine_empire = yes
+				has_country_flag = tec_synth_slow_transition
+			}
+		}
+	}
+	species_possible_remove = {
+		exists = from
+		from = {
+			OR = {
+				is_machine_empire = yes
+				has_country_flag = tec_synth_slow_transition
+			}
+		}
+	}
+	species_possible_merge_remove = {
+		exists = from
+		from = {
+			OR = {
+				is_machine_empire = yes
+				has_country_flag = tec_synth_slow_transition
+			}
+		}
+	}
+	# External
+	slave_cost = {
+		energy = 500
+	}
+	assembly_score = {
+		modifier = {
+			add = 0.5
+		}
+	}
+}
+
+trait_tec_machine_clockwork = {
+	sorting_priority = 10
+	icon = gfx/interface/icons/traits/machine_traits/trait_tec_machine_clockwork.dds
+	cost = 0
+	initial = yes
+	randomized = yes
+	# Archetypes
+	allowed_archetypes = { MACHINE ROBOT }
+	opposites = { "trait_tec_machine_biomass" "trait_tec_machine_biobrain" }
+	# Modifiers
+	# custom_tooltip = TRAIT_TEC_CLOCKWORK_EFFECT
+	modifier = {
+		pop_category_normal_resources_minerals_upkeep_add = 0.5
+		tec_pop_upkeep_base_add = -0.75
+	}
+	# Modification
+	species_potential_add = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	species_possible_remove = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	species_possible_merge_remove = {
+		exists = from
+		from = {
+			is_machine_empire = yes
+		}
+	}
+	# External
+	slave_cost = {
+		energy = 500
+	}
+}
