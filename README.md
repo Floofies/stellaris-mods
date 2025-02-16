@@ -1,19 +1,25 @@
 # stellaris-traits
 
-This repository contains a collection of Trait mods for Stellaris v3.14.
+This repository contains my custom Traits mod for Stellaris v3.14.
 
-## My Custom Traits
+## Included Traits
 
-- To be added later.
-
-## [Stellaris Evolved](https://github.com/Stellaris-Evolved/stellaris-evolved/tree/main) Traits
-#### Biomass Converters
+#### Bioroids
 - Robotic Pop Food Upkeep +0.5🍏
 - Robotic Pop Energy Upkeep -0.5⚡
 
-#### Organic Processor
+#### Wetware
 - Robotic Food Upkeep +0.5🍏
 
-#### Clockwork Body
+#### Electro-Mechanical
 - Robotic Pop Minerals Upkeep +0.5💎
 - Robotic Pop Energy Upkeep -0.75⚡
+
+## Software License
+
+The following are legally binding guidelines for the use and distribution of this software.
+
+- All code in this repository is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
+- This repository contains derivative works based on [Stellaris Evolved](https://github.com/Stellaris-Evolved/stellaris-evolved/tree/main).
+
+See LICENSE and GPLv3.txt for more details.
