@@ -7,9 +7,11 @@ This repository contains my custom Traits mod for Stellaris v3.14.
 #### Bioroids
 - Robotic Pop Food Upkeep +0.5🍏
 - Robotic Pop Energy Upkeep -0.5⚡
+- Robotic Pop Base Upkeep -0.10
 
 #### Wetware
 - Robotic Food Upkeep +0.5🍏
+- Robotic Jobs Base Production +0.05
 
 #### Electro-Mechanical
 - Robotic Pop Minerals Upkeep +0.5💎
