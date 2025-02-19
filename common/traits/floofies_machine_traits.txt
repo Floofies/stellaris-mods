@@ -1,17 +1,17 @@
-trait_tec_machine_bioroid = {
+trait_machine_bioroid = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_bioroid.dds
+	icon = gfx/interface/icons/traits/trait_machine_bioroid.dds
+	custom_tooltip_with_modifiers = trait_machine_bioroid_desc
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_electromech" "trait_tec_machine_wetware" }
+	opposites = { "trait_machine_electromech" "trait_machine_wetware" }
 	# Modifiers
-	# custom_tooltip_with_modifiers = TRAIT_TEC_BIOROID_EFFECT
 	modifier = {
 		pop_category_normal_resources_food_upkeep_add = 0.5
-		tec_pop_upkeep_base_add = -0.5
+		pop_upkeep_base_add = -0.5
 		planet_pops_robotics_upkeep_mult = -0.10
 	}
 	# Modification
@@ -39,17 +39,17 @@ trait_tec_machine_bioroid = {
 	}
 }
 
-trait_tec_machine_wetware = {
+trait_machine_wetware = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_wetware.dds
+	icon = gfx/interface/icons/traits/trait_machine_wetware.dds
+	custom_tooltip_with_modifiers = trait_machine_wetware_desc
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_bioroid" "trait_tec_machine_electromech" }
+	opposites = { "trait_machine_bioroid" "trait_machine_electromech" }
 	# Modifiers
-	# custom_tooltip_with_modifiers = TRAIT_TEC_WETWARE_EFFECT
 	modifier = {
 		pop_category_normal_resources_food_upkeep_add = 0.5
 		planet_jobs_robotic_produces_mult = 0.05
@@ -60,7 +60,7 @@ trait_tec_machine_wetware = {
 		from = {
 			OR = {
 				is_machine_empire = yes
-				has_country_flag = tec_synth_slow_transition
+				has_country_flag = synth_slow_transition
 			}
 		}
 	}
@@ -69,7 +69,7 @@ trait_tec_machine_wetware = {
 		from = {
 			OR = {
 				is_machine_empire = yes
-				has_country_flag = tec_synth_slow_transition
+				has_country_flag = synth_slow_transition
 			}
 		}
 	}
@@ -78,7 +78,7 @@ trait_tec_machine_wetware = {
 		from = {
 			OR = {
 				is_machine_empire = yes
-				has_country_flag = tec_synth_slow_transition
+				has_country_flag = synth_slow_transition
 			}
 		}
 	}
@@ -93,20 +93,20 @@ trait_tec_machine_wetware = {
 	}
 }
 
-trait_tec_machine_electromech = {
+trait_machine_electromech = {
 	sorting_priority = 10
-	icon = gfx/interface/icons/traits/trait_tec_machine_electromech.dds
+	icon = gfx/interface/icons/traits/trait_machine_electromech.dds
+	custom_tooltip_with_modifiers = trait_machine_electromech_desc
 	cost = 0
 	initial = yes
 	randomized = yes
 	# Archetypes
 	allowed_archetypes = { MACHINE ROBOT }
-	opposites = { "trait_tec_machine_bioroid" "trait_tec_machine_wetware" }
+	opposites = { "trait_machine_bioroid" "trait_machine_wetware" }
 	# Modifiers
-	# custom_tooltip = TRAIT_TEC_ELECTROMECH_EFFECT
 	modifier = {
 		pop_category_normal_resources_minerals_upkeep_add = 0.5
-		tec_pop_upkeep_base_add = -0.75
+		pop_upkeep_base_add = -0.75
 	}
 	# Modification
 	species_potential_add = {
