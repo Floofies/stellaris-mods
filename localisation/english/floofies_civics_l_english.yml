@@ -1,0 +1,7 @@
+l_english:
+
+ civic_ancient_guardians_effect: "Starts with £physics£ §Y$tech_artifice_quantization$§! already researched."
+
+ civic_ancient_guardians:0 "Ancient Guardians"
+ civic_ancient_guardians_desc:0 "This empire sees itself as a guardian of ancient knowledge, and its libraries are replete with information about the history of the galaxy. The people of this society rally upon the permanence older empires in order to develop technology and maintain their record of events."
+ civic_ancient_guardians_tooltip:0 "$civic_ancient_guardians_ship_effect$\n$t$$civic_ancient_guardians_module_effect$\n$t$$civic_ancient_guardians_building_effect$\n$t$$civic_ancient_guardians_engineer_effect$\n$t$$civic_ancient_guardians_tech_effect$\n$t$$civic_ancient_guardians_speed_effect$"

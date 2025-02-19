@@ -1,0 +1,12 @@
+l_english:
+
+ tech_artifice_quantization_ship_effect: "Ship Components £resource_minor_artifacts£ Minor Artifact Cost: §G-50%§!"
+ tech_artifice_quantization_module_effect: "Starbase Modules £resource_minor_artifacts£ Minor Artifact Cost: §G-50%§!"
+ tech_artifice_quantization_building_effect: "Starbase Buildings £resource_minor_artifacts£ Minor Artifact Cost: §G-50%§!"
+ tech_artifice_quantization_engineer_effect: "£minor_artifacts£ Minor Artifacts from £job_researcher£ $job_archaeoengineers_plural$: §G+0.5§!"
+ tech_artifice_quantization_tech_effect: "Chance for §YArchaeostudies§! Research Options §G+20%§!"
+ tech_artifice_quantization_speed_effect: "§YArchaeostudies§! Research Speed §G+30%§!"
+ tech_artifice_quantization_artifacts_effect: "£minor_artifacts£ Minor Artifacts Capacity §G+12000§!"
+
+ tech_artifice_quantization_desc: "Ancient advanced technology can be studied and improved, allowing us to reproduce it both cheaply and accurately."
+ tech_artifice_quantization_tooltip: "Ancient advanced technology can be studied and improved, allowing us to reproduce it both cheaply and accurately."

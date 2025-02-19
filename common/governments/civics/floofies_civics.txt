@@ -1,0 +1,22 @@
+civic_ancient_guardians = {
+	icon = gfx/interface/icons/governments/civics/gestalt_civics/civic_ancient_guardians.dds
+	description = "civic_ancient_guardians_desc"
+	potential = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+			}
+		}
+	}
+	modifier = { 
+		custom_tooltip = civic_ancient_guardians_tooltip
+		category_archaeostudies_draw_chance_mult = 0.20
+		category_archaeostudies_research_speed_mult = 0.30
+		country_resource_max_minor_artifacts_add = 12000
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.50
+		starbase_outpost_minor_artifacts_cost_mult = -0.50
+		starbase_modules_minor_artifacts_cost_mult = -0.50
+		starbase_buildings_minor_artifacts_cost_mult = -0.50
+		rare_edicts_minor_artifacts_cost_mult = -0.50
+	}
+}

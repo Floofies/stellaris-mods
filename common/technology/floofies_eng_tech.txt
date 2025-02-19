@@ -1,0 +1,40 @@
+tech_artifice_quantization = {
+	area = engineering
+	category = { archaeostudies }
+	prerequisites = { "tech_archaeostudies" }
+	potential = { has_ancrel = yes }
+	cost = @tier3cost2
+	tier = 3
+	is_rare = yes
+	weight = @tier3weight2
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_civic = "civic_ancient_guardians"
+				has_civic = "civic_machine_ancient_guardians"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ascension_perk = ap_archaeoengineers
+			}
+		}
+		modifier = {
+			factor = 0
+			is_ai = yes
+		}
+	}
+	modifier = { 
+		custom_tooltip = civic_ancient_guardians_tooltip
+		category_archaeostudies_draw_chance_mult = 0.20
+		category_archaeostudies_research_speed_mult = 0.30
+		country_resource_max_minor_artifacts_add = 15000
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.50
+		starbase_outpost_minor_artifacts_cost_mult = -0.50
+		starbase_modules_minor_artifacts_cost_mult = -0.50
+		starbase_buildings_minor_artifacts_cost_mult = -0.50
+		rare_edicts_minor_artifacts_cost_mult = -0.50
+	}
+}
