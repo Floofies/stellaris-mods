@@ -1,0 +1,50 @@
+Mod Source Code: https://github.com/Floofies/stellaris-mods
+
+[b] Civics [/b]
+
+[b] Ancient Guardians [/b]
+
+Starts with [b]Artifice Quantization[/b] technology already researched.
+
+[b] Technologies [/b]
+
+[b] Artifice Quantization [/b]
+[list]
+[*] [b]Required DLC: Ancient Relics Story Pack[/b]
+[*] Ship Components Minor Artifact Cost: -50%
+[*] Starbase Modules Minor Artifact Cost: -50%
+[*] Starbase Buildings Minor Artifact Cost: -50%
+[*] Minor Artifacts from Archaeo-Engineer Jobs: +0.5
+[*] Chance for Archaeostudies Research Options +20%
+[*] Archaeostudies Research Speed +30%
+[*] Minor Artifacts Capacity +12000
+[/list]
+
+[b] Traits [/b]
+
+Traits for regular, non-gestalt species.
+
+TBD
+
+[b] Machine Intelligence Traits [/b]
+
+Traits for species with the "Gestalt Conciousness" ethic and "Machine Intelligence" authority.
+
+[b] Bioroids [/b]
+[list]
+[*] Robotic Pop Food Upkeep +0.5
+[*] Robotic Pop Energy Upkeep -0.5
+[*] Robotic Pop Base Upkeep -0.10
+[/list]
+
+[b] Wetware [/b]
+[list]
+[*] Robotic Pop Food Upkeep +0.5
+[*] Robotic Jobs Base Production +0.05
+[/list]
+
+[b] Electro-Mechanical [/b]
+[list]
+[*] Robotic Pop Minerals Upkeep +0.5
+[*] Robotic Pop Energy Upkeep -0.75
+[/list]
